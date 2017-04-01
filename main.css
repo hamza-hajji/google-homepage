@@ -1,0 +1,65 @@
+/* Header */
+
+.header {
+	margin-top: 20px;
+	padding-right: 50px;
+}
+
+.navbar {
+	float: right;
+}
+
+.header ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+/* Links */
+
+.header a {
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+}
+.header a:hover, .header a:focus {
+	border: none;
+	text-decoration: underline;
+}
+
+/* Main */
+
+.main {
+	margin: 100px auto 20px;
+	width: 50%;
+}
+
+input, img {
+	display: block;
+	margin: 0 auto;
+}
+
+input {
+	width: 80%;
+	height: 30px;
+	margin-top: 20px;
+}
+
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+/* Clearfix */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
